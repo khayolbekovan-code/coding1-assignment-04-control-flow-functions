@@ -7,7 +7,7 @@ for number in [1, 2, 3]: #The loop goes through 1, 2 and 3
 
 # 1. What is printed, in order? Explain how the loop and the if condition
 # decide which numbers are passed to add_one.
-# Your answer: It prints 3, then 4.
+# Your answer: It prints 3 and 4.
 # The loop takes 1, 2 and 3 one at a time. The if only lets a number through
 # when it is greater than 1, so 1 is skipped and add_one is never called on it.
 # 2 and 3 pass, so add_one(2) and add_one(3) run and their results are printed.
